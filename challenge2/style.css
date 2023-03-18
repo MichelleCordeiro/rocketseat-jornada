@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;  /* 1rem = 10px */
+
+  --primary-green: #5EEAD4;
+  --primary-white: #EBF1FB;
+  --primary-black: #0B0C0E;
+}
+
+body {
+  height: 100vh;
+
+  background-image: url(./images/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: 'Spectral', serif;
+  color: var(--primary-white);
+  text-align: center;
+
+  display: grid;
+  place-content: center;
+}
+
+h1 {
+  font-family: 'Beth Ellen', cursive;
+  font-size: 6.4rem;
+  line-height: 12.0rem;
+
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  color: var(--primary-green);
+}
+
+p {
+  font-size: 2.0rem;
+  line-height: 3.044rem;
+  font-weight: 500;
+
+  margin-bottom: 7.2rem;
+}
+
+a {
+  color: var(--primary-white);
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+
+  padding: 1.6rem 3.2rem;
+  border-radius: 8px;
+}
+
+a:hover {
+  box-shadow: 1px 1px 30px white;
+}
+
+#btn-recipes {
+  background: var(--primary-green);
+  color: var(--primary-black);
+  text-decoration: none;
+
+  margin-left: 2.4rem;
+}

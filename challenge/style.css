@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #151718;
+  --black-p: rgba(44, 46, 47, 0.9);
+  --pink: #DB2777;
+
+  font-size: 62,5%;  /* 1rem = 10px */
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+
+  background-image: url(./img/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  font-family: 'Cinzel', serif;
+  color: var(--black);
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 8.6rem;
+  text-transform: uppercase;
+
+  padding: 15% 2% 0 2%;
+}
+
+h1 span {
+  color: var(--pink);
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: var(--black-p);
+
+  margin-block: 0.4rem 7.2rem;
+  padding: 0 2%;
+}
+
+#btns {
+  padding: 0 2%;
+}
+
+a {
+  color: var(--black);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 880px;
+
+  padding: 1.6rem 3.2rem;
+}
+
+a:hover {
+  box-shadow: 3px 5px 30px 1px var(--pink);
+}
+
+#btn-travel {
+  color: white;
+  background: var(--pink);
+
+  margin-left: 1.6rem;
+}
+
+
+@media (max-width:776px)  {
+  p {
+  margin-block: 0.4rem 4rem;
+  }
+
+  a {
+  padding: 1rem 3.2rem;
+  }
+
+
+  #btns {
+    display: grid;
+    gap: 20px;
+    margin: 0.4rem 7.2rem; 
+  }
+
+  #btn-travel {
+    margin-left: 0;
+  }
+}
