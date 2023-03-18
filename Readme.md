@@ -20,20 +20,24 @@ This projects was developed using the following technologies:
 Introduction to HTML and CSS:
 You can see the project code in this [repository](https://github.com/MichelleCordeiro/rocketseat-jornada/tree/main/class/) and see it online [here](https://MichelleCordeiro.github.io/rocketseat-jornada/class/).
 
-<img alt="rocketpay" src="https://i.postimg.cc/t4mNyn1d/class.png" width="700">
-
+<img alt="children in scary place" src="https://i.postimg.cc/t4mNyn1d/class.png" width="600">
+<br>
 
 ### 🏆 Challenges
 ✪ Develop website from figma layout (in addition I used media query and responsive design):
+
 &emsp; You can see the challenge code in this [repository](https://github.com/MichelleCordeiro/rocketseat-jornada/tree/main/challenge/) and see it online [here](https://MichelleCordeiro.github.io/rocketseat-jornada/challenge/)
 
 ✪ Develop website from figma layout:
+
 &emsp; You can see the challenge code in this [repository](https://github.com/MichelleCordeiro/rocketseat-jornada/tree/main/challenge2) and see it online [here](https://MichelleCordeiro.github.io/rocketseat-jornada/challenge2)
 
-<img alt="rocketpay" src="https://i.postimg.cc/Qx8QTJ1k/challenge.png" width="700">
-<img alt="rocketpay" src="https://i.postimg.cc/63xR5rBZ/challenge2.png" width="700">
+<p>
+  <img alt="road view from inside car" src="https://i.postimg.cc/Qx8QTJ1k/challenge.png" width="400">
+  <img alt="grapes bowl" src="https://i.postimg.cc/63xR5rBZ/challenge2.png" width="400">
+</p>
+<br>
 
-<br><br>
 
 ### 📝 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
